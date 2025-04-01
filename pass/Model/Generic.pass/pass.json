@@ -1,0 +1,39 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.com.dladev.cubamoney",
+  "teamIdentifier" : "27XRUKL844",
+  "barcode" : {
+    "message" : "",
+    "format" : "PKBarcodeFormatQR",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "organizationName" : "Toy Town",
+  "description" : "description",
+  "logoText" : "Cuban Money",
+  "backgroundColor": "rgb(143,172,180)",
+  "foregroundColor": "rgb(255,255,255)",
+  "labelColor": "rgb(255,255,255)",
+  "generic": {
+    "primaryFields": [
+      {
+        "key": "name",
+        "label": "Nombre",
+        "value": "Nombre Ejemplo"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "phone",
+        "label": "Teléfono",
+        "value": "+1 000 000 0000"
+      }
+    ],
+    "auxiliaryFields": [
+    {
+      "key": "extra",
+      "label": "Tarjeta",
+      "value": "Valor ejemplo"
+    }
+  ]
+  }
+}
